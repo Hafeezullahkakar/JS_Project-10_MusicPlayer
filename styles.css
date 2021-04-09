@@ -47,6 +47,57 @@ h3{
     text-align: center;
 }
 
+
+/* Progress Container */
+.progress-container{
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 6px;
+    position: relative;
+    left: 14px;
+    width: 90%;
+}
+.progress{
+    background: black;
+    border-radius: 5px;
+    height: 100%;
+    width: 66%;
+    transition: width 0.1s linear;
+
+}
+
+.duration-wrapper{
+    position: relative;
+    left: -25px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 1px;
+    font-weight: bold;
+    top: -25px;
+}
+/* Buttons */
+.player-controls{
+    position: relative;
+    top: 20px;
+    left: 110px;
+    width: 200px;
+}
+
+.fas{
+    font-size: 30px;
+    color: rgb(129, 129, 129);
+    margin-right: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+.fas:hover{
+    filter: brightness(80%);
+}
+.main-button{
+    font-size: 35px;
+}
 @media screen and (max-width:376px) {
     .player-container{
         width: 95vw;
